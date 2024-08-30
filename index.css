@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+#hello {
+    color: red;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    margin: 70px;
+    border: 10px solid red;
+    background-color: palevioletred;
+}
+
+button{
+    color: red;
+    background-color: 
+    #53bcd8;
+    border-color:palegreen ;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: palegreen;
+    background-color: purple;
+    border-color:palegreen ;
+    cursor: pointer;
+}
+
+a:visited{
+    color: palegreen;
+}
+
+a:active {
+    color: red;
+}
+
+a:hover{
+   color: blue;
+}
+
+li:nth-child(){
+    color: red
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.parent{
+    height: 150px;
+    width: 150px;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-color: blue;
+    border-style: dotted;
+}
+
+.child1{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+}
+
+.font-styling{
+    font-size: smaller;
+    color: white;
+}
+
